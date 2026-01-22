@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   const cityInput = document.getElementById('city-input')
   const getWeatherButton = document.getElementById('get-weather-btn')
@@ -7,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const descriptionDisplay = document.getElementById('description')
   const errorMessage = document.getElementById('error-message')
 
-  const API_KEY = "fb2fcaa99b21ce67b8da0b3878a79baa";   // env Variable
+  const API_KEY = "Put Api key of open weather here";      // env Variable
 
     getWeatherButton.addEventListener('click', async () => {
       const city = cityInput.value.trim();
